@@ -7,13 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div class="card">
         <h1 id="title">Roman Numeral Converter</h1>
         <div class="mainbox">
-            <label for="textInput">Enter a Number: </label>
-            <input type="number" class="textInput" id="textInput" required>
-            <button class="btn" id="btn">Convert</button>
-            <div class="result" id="result"></div>
+            <form>
+                <label for="textInput">Enter a Number: </label>
+                <input type="number" class="textInput" id="textInput" min="0" max="3999" required>
+                <button class="btn" id="btn">Convert</button>
+                <div class="result" id="result"></div>
+            </form>
         </div>
     </div>
     <script src="main.js"></script>
