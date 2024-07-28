@@ -3,32 +3,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(250, 250, 250);
-
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
 .card{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
 }
 
-#title{
-    margin-top: 3rem;
-    background-color: rgb(12, 78, 78);
-}
 .mainbox{
-    margin-top: 5rem;
+    margin-top: 3rem;
     height: 15rem;
     width: 25rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(95, 44, 112);
+    flex-direction: column;
+    background-image: url("https://i.pinimg.com/564x/28/74/24/287424faae87e8cb9a4ecd56c8820877.jpg");
+    background-size: 100%;
 }
 label{
     padding: 15px 0px 15px 0px;
@@ -37,7 +35,7 @@ label{
     font-size: 1.2rem;
 }
 
-.textInput{
+.numberInput{
     color: black;
     width: 9rem;
     font-size: 1.1rem;
@@ -56,4 +54,13 @@ label{
 
 .btn:active{
     transform: scale(0.9,0.9);
+}
+.hidden{
+    display: none;
+}
+.output{
+    margin: 10px;
+    width: 300px;
+
+    background-color: rgb(59, 59, 59);
 }
